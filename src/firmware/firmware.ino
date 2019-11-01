@@ -80,6 +80,7 @@ void setup() {
     if (bit_istrue(settings.flags,BITFLAG_HOMING_ENABLE)) { sys.state = STATE_ALARM; }
   #endif
 #ifdef ENABLE_WIFI
+//    wifi_config.reset_settings();
     wifi_config.begin();
 #endif
 #ifdef ENABLE_BLUETOOTH
@@ -120,8 +121,6 @@ void loop() {
   plan_sync_position();
   gc_sync_position();
 
-   
-  
   // put your main code here, to run repeatedly:
   report_init_message(CLIENT_ALL);
 	

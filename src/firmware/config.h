@@ -47,14 +47,16 @@ Some features should not be changed. See notes below.
 // one configuration file by placing their specific defaults and pin map at the bottom of this file.
 // If doing so, simply comment out these two defines and see instructions below.
 #define DEFAULTS_GENERIC
-#define CPU_MAP_TEST_DRIVE // these are defined in cpu_map.h
+// #define CPU_MAP_TEST_DRIVE // these are defined in cpu_map.h
 #define VERBOSE_HELP // adds addition help info, but could confuse some senders
+
+#define CPU_MAP_ESP32
 
 
 // Serial baud rate
 #define BAUD_RATE 115200
 
-#define ENABLE_BLUETOOTH // enable bluetooth ... turns of if $I= something
+// #define ENABLE_BLUETOOTH // enable bluetooth ... turns of if $I= something
 
 #define ENABLE_SD_CARD // enable use of SD Card to run jobs
 
@@ -65,7 +67,7 @@ Some features should not be changed. See notes below.
 #define ENABLE_TELNET //enable telnet
 #define ENABLE_TELNET_WELCOME_MSG //display welcome string when connect to telnet
 #define ENABLE_MDNS //enable mDNS discovery
-#define ENABLE_SSDP //enable UPNP discovery
+// #define ENABLE_SSDP //enable UPNP discovery
 #define ENABLE_NOTIFICATIONS //enable notifications
 
 #define ENABLE_SERIAL2SOCKET_IN
