@@ -4410,10 +4410,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="GND1" library="holla" deviceset="GND" device=""/>
 <part name="GND2" library="holla" deviceset="GND" device=""/>
 <part name="GND4" library="holla" deviceset="GND" device=""/>
-<part name="X" library="holla" deviceset="CONN-06" device="-3.81MM-PLUGIN-SCREW"/>
-<part name="Q2" library="holla" deviceset="FET-NCH" device="-SOT23"/>
-<part name="R2" library="holla" deviceset="R" device="-0603"/>
-<part name="R3" library="holla" deviceset="R" device="-0603"/>
+<part name="X" library="holla" deviceset="CONN-06" device="-.100-VERT-HEADER"/>
 <part name="FRAME2" library="holla" deviceset="FRAME_A_L" device=""/>
 <part name="GND48" library="holla" deviceset="GND" device=""/>
 <part name="J11" library="holla" deviceset="CONN-MICROSD-2908-05WB-MG" device=""/>
@@ -4430,7 +4427,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="GND10" library="holla" deviceset="GND" device=""/>
 <part name="R4" library="holla" deviceset="R" device="-0603" value="10k"/>
 <part name="GND5" library="holla" deviceset="GND" device=""/>
-<part name="Y" library="holla" deviceset="CONN-06" device="-3.81MM-PLUGIN-SCREW"/>
+<part name="Y" library="holla" deviceset="CONN-06" device="-.100-VERT-HEADER"/>
 <part name="R5" library="holla" deviceset="R" device="-0603" value="100"/>
 <part name="Q5" library="holla" deviceset="FET-NCH" device="-SOT23"/>
 <part name="Q6" library="holla" deviceset="FET-NCH" device="-SOT23"/>
@@ -4438,7 +4435,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="GND7" library="holla" deviceset="GND" device=""/>
 <part name="R7" library="holla" deviceset="R" device="-0603" value="10k"/>
 <part name="GND11" library="holla" deviceset="GND" device=""/>
-<part name="Z" library="holla" deviceset="CONN-06" device="-3.81MM-PLUGIN-SCREW"/>
+<part name="Z" library="holla" deviceset="CONN-06" device="-.100-VERT-HEADER"/>
 <part name="R9" library="holla" deviceset="R" device="-0603" value="100"/>
 <part name="Q7" library="holla" deviceset="FET-NCH" device="-SOT23"/>
 <part name="Q8" library="holla" deviceset="FET-NCH" device="-SOT23"/>
@@ -4446,7 +4443,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="GND13" library="holla" deviceset="GND" device=""/>
 <part name="R10" library="holla" deviceset="R" device="-0603" value="10k"/>
 <part name="GND14" library="holla" deviceset="GND" device=""/>
-<part name="A" library="holla" deviceset="CONN-06" device="-3.81MM-PLUGIN-SCREW"/>
+<part name="A" library="holla" deviceset="CONN-06" device="-.100-VERT-HEADER"/>
 <part name="R11" library="holla" deviceset="R" device="-0603" value="100"/>
 <part name="Q9" library="holla" deviceset="FET-NCH" device="-SOT23"/>
 <part name="Q10" library="holla" deviceset="FET-NCH" device="-SOT23"/>
@@ -4457,7 +4454,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="R14" library="holla" deviceset="R" device="-0603" value="2k"/>
 <part name="GND17" library="holla" deviceset="GND" device=""/>
 <part name="GND18" library="holla" deviceset="GND" device=""/>
-<part name="SPINDLE" library="holla" deviceset="CONN-06" device="-3.81MM-PLUGIN-SCREW"/>
+<part name="SPINDLE" library="holla" deviceset="CONN-06" device="-.100-VERT-HEADER"/>
 <part name="R17" library="holla" deviceset="R" device="-0603" value="DNP"/>
 <part name="Q11" library="holla" deviceset="FET-NCH" device="-SOT23"/>
 <part name="Q12" library="holla" deviceset="FET-NCH" device="-SOT23"/>
@@ -4467,11 +4464,11 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="Q13" library="holla" deviceset="FET-NCH" device="-SOT23"/>
 <part name="GND21" library="holla" deviceset="GND" device=""/>
 <part name="GND22" library="holla" deviceset="GND" device=""/>
-<part name="FEED" library="holla" deviceset="CONN-02" device="-3.81MM-PLUGIN-SCREW"/>
+<part name="FEED" library="holla" deviceset="CONN-02" device="-.100-VERT-HEADER"/>
 <part name="R19" library="holla" deviceset="R" device="-0603" value="100"/>
 <part name="R20" library="holla" deviceset="R" device="-0603" value="10k"/>
 <part name="GND23" library="holla" deviceset="GND" device=""/>
-<part name="CYCLE" library="holla" deviceset="CONN-02" device="-3.81MM-PLUGIN-SCREW"/>
+<part name="CYCLE" library="holla" deviceset="CONN-02" device="-.100-VERT-HEADER"/>
 <part name="R21" library="holla" deviceset="R" device="-0603" value="100"/>
 <part name="R22" library="holla" deviceset="R" device="-0603" value="10k"/>
 <part name="GND24" library="holla" deviceset="GND" device=""/>
@@ -4494,8 +4491,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="GND31" library="holla" deviceset="GND" device=""/>
 <part name="GND32" library="holla" deviceset="GND" device=""/>
 <part name="3V3" library="holla" deviceset="TESTPOINT" device="THRU"/>
-<part name="24V0" library="holla" deviceset="TESTPOINT" device="THRU"/>
-<part name="5V0" library="holla" deviceset="TESTPOINT" device="THRU"/>
 <part name="GND33" library="holla" deviceset="GND" device=""/>
 <part name="GND34" library="holla" deviceset="GND" device=""/>
 <part name="R15" library="holla" deviceset="R" device="-0603" value="220"/>
@@ -4590,8 +4585,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <instance part="C11" gate="G$1" x="88.9" y="185.42" rot="R180"/>
 <instance part="GND31" gate="1" x="88.9" y="182.88"/>
 <instance part="3V3" gate="G$1" x="236.22" y="200.66"/>
-<instance part="24V0" gate="G$1" x="40.64" y="200.66"/>
-<instance part="5V0" gate="G$1" x="60.96" y="200.66"/>
 <instance part="J24V0" gate="G$1" x="27.94" y="165.1"/>
 <instance part="J5V0" gate="G$1" x="27.94" y="157.48"/>
 <instance part="J3V3" gate="G$1" x="27.94" y="149.86"/>
@@ -4617,7 +4610,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="198.12" x2="60.96" y2="195.58" width="0.1524" layer="91"/>
 <junction x="60.96" y="198.12"/>
-<pinref part="5V0" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VIN"/>
@@ -4751,7 +4743,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <junction x="40.64" y="198.12"/>
 <wire x1="35.56" y1="198.12" x2="35.56" y2="200.66" width="0.1524" layer="91"/>
 <label x="35.56" y="200.66" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="24V0" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="J24V0" gate="G$1" pin="2"/>
@@ -5059,9 +5050,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <instance part="FRAME2" gate="G$2" x="172.72" y="0"/>
 <instance part="GND4" gate="1" x="35.56" y="180.34"/>
 <instance part="X" gate="G$1" x="27.94" y="190.5"/>
-<instance part="Q2" gate="G$1" x="205.74" y="182.88" rot="MR270"/>
-<instance part="R2" gate="G$1" x="200.66" y="185.42" rot="R90"/>
-<instance part="R3" gate="G$1" x="210.82" y="185.42" rot="R90"/>
 <instance part="R8" gate="G$1" x="55.88" y="187.96"/>
 <instance part="Q3" gate="G$1" x="55.88" y="177.8" rot="MR0"/>
 <instance part="Q4" gate="G$1" x="43.18" y="177.8" rot="MR0"/>
@@ -5165,11 +5153,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <pinref part="X" gate="G$1" pin="5"/>
 <wire x1="33.02" y1="190.5" x2="35.56" y2="190.5" width="0.1524" layer="91"/>
 <label x="35.56" y="190.5" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="187.96" x2="200.66" y2="190.5" width="0.1524" layer="91"/>
-<label x="200.66" y="190.5" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Y" gate="G$1" pin="5"/>
@@ -5420,15 +5403,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="208.28" y1="185.42" x2="208.28" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="187.96" x2="208.28" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="187.96" x2="208.28" y2="187.96" width="0.1524" layer="91"/>
-<label x="208.28" y="190.5" size="1.016" layer="95" rot="R90" xref="yes"/>
-<junction x="208.28" y="187.96"/>
-</segment>
-<segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="195.58" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
 <label x="50.8" y="198.12" size="1.016" layer="95" rot="R90" xref="yes"/>
@@ -5467,24 +5441,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <pinref part="U3" gate="G$1" pin="VDD"/>
 <wire x1="124.46" y1="68.58" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
 <label x="124.46" y="71.12" size="1.016" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="180.34" x2="213.36" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="182.88" x2="210.82" y2="180.34" width="0.1524" layer="91"/>
-<junction x="210.82" y="180.34"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="200.66" y1="180.34" x2="198.12" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="180.34" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
-<junction x="200.66" y="180.34"/>
 </segment>
 </net>
 <net name="X_STEP" class="0">
