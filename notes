@@ -2,4 +2,6 @@ Do not use GPIO6-GPIO11 they are used for on board flash
 Do not use GPIO1-GPIO2 they qare used for the USB/Serial
 Avoid GPIO0 it is used to trigger boot mode.
 
+look at dring's board for esp32 connections
+
 
