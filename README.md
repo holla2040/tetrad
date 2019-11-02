@@ -1,5 +1,5 @@
 # hexad
-A 6-axis ESP32 GRBL board 
+A 4-axis ESP32 GRBL board 
 
 Board
     ![hexad board](images/hexad-brd.png)
