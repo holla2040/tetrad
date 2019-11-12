@@ -5055,34 +5055,34 @@ add EVE2 display connector</text>
 <instance part="GND4" gate="1" x="35.56" y="180.34"/>
 <instance part="X" gate="G$1" x="27.94" y="190.5"/>
 <instance part="R27" gate="G$1" x="55.88" y="187.96"/>
-<instance part="Q12" gate="G$1" x="55.88" y="177.8" rot="MR0"/>
-<instance part="Q11" gate="G$1" x="43.18" y="177.8" rot="MR0"/>
-<instance part="GND9" gate="1" x="53.34" y="172.72"/>
-<instance part="GND10" gate="1" x="40.64" y="172.72"/>
+<instance part="Q12" gate="G$1" x="55.88" y="180.34" rot="MR0"/>
+<instance part="Q11" gate="G$1" x="43.18" y="175.26" rot="MR0"/>
+<instance part="GND9" gate="1" x="53.34" y="175.26"/>
+<instance part="GND10" gate="1" x="40.64" y="170.18"/>
 <instance part="R26" gate="G$1" x="50.8" y="193.04" rot="R90"/>
 <instance part="GND5" gate="1" x="35.56" y="142.24"/>
 <instance part="Y" gate="G$1" x="27.94" y="152.4"/>
 <instance part="R19" gate="G$1" x="55.88" y="149.86"/>
-<instance part="Q3" gate="G$1" x="55.88" y="139.7" rot="MR0"/>
-<instance part="Q2" gate="G$1" x="43.18" y="139.7" rot="MR0"/>
-<instance part="GND6" gate="1" x="53.34" y="134.62"/>
-<instance part="GND7" gate="1" x="40.64" y="134.62"/>
+<instance part="Q3" gate="G$1" x="55.88" y="142.24" rot="MR0"/>
+<instance part="Q2" gate="G$1" x="43.18" y="137.16" rot="MR0"/>
+<instance part="GND6" gate="1" x="53.34" y="137.16"/>
+<instance part="GND7" gate="1" x="40.64" y="132.08"/>
 <instance part="R20" gate="G$1" x="50.8" y="154.94" rot="R90"/>
 <instance part="GND11" gate="1" x="35.56" y="101.6"/>
 <instance part="Z" gate="G$1" x="27.94" y="111.76"/>
 <instance part="R21" gate="G$1" x="55.88" y="109.22"/>
-<instance part="Q5" gate="G$1" x="55.88" y="99.06" rot="MR0"/>
-<instance part="Q4" gate="G$1" x="43.18" y="99.06" rot="MR0"/>
-<instance part="GND12" gate="1" x="53.34" y="93.98"/>
-<instance part="GND13" gate="1" x="40.64" y="93.98"/>
+<instance part="Q5" gate="G$1" x="55.88" y="101.6" rot="MR0"/>
+<instance part="Q4" gate="G$1" x="43.18" y="96.52" rot="MR0"/>
+<instance part="GND12" gate="1" x="53.34" y="96.52"/>
+<instance part="GND13" gate="1" x="40.64" y="91.44"/>
 <instance part="R18" gate="G$1" x="50.8" y="114.3" rot="R90"/>
 <instance part="GND14" gate="1" x="35.56" y="60.96"/>
 <instance part="A" gate="G$1" x="27.94" y="71.12"/>
 <instance part="R22" gate="G$1" x="55.88" y="68.58"/>
-<instance part="Q7" gate="G$1" x="55.88" y="58.42" rot="MR0"/>
-<instance part="Q6" gate="G$1" x="43.18" y="58.42" rot="MR0"/>
-<instance part="GND15" gate="1" x="53.34" y="53.34"/>
-<instance part="GND16" gate="1" x="40.64" y="53.34"/>
+<instance part="Q7" gate="G$1" x="55.88" y="60.96" rot="MR0"/>
+<instance part="Q6" gate="G$1" x="43.18" y="55.88" rot="MR0"/>
+<instance part="GND15" gate="1" x="53.34" y="55.88"/>
+<instance part="GND16" gate="1" x="40.64" y="50.8"/>
 <instance part="R23" gate="G$1" x="50.8" y="73.66" rot="R90"/>
 <instance part="GND17" gate="1" x="33.02" y="38.1"/>
 <instance part="GND18" gate="1" x="93.98" y="180.34"/>
@@ -5395,7 +5395,6 @@ add EVE2 display connector</text>
 </net>
 <net name="X_STEP_5V0" class="0">
 <segment>
-<wire x1="53.34" y1="185.42" x2="53.34" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="Q12" gate="G$1" pin="D"/>
 <pinref part="X" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="185.42" x2="33.02" y2="185.42" width="0.1524" layer="91"/>
@@ -5404,7 +5403,7 @@ add EVE2 display connector</text>
 <net name="X_LIMIT" class="0">
 <segment>
 <wire x1="58.42" y1="187.96" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
-<label x="63.5" y="187.96" size="1.016" layer="95" rot="R90" xref="yes"/>
+<label x="63.5" y="187.96" size="1.016" layer="95" xref="yes"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="187.96" x2="63.5" y2="187.96" width="0.1524" layer="91"/>
@@ -5415,23 +5414,23 @@ add EVE2 display connector</text>
 <net name="3V3" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="195.58" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
-<label x="50.8" y="198.12" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="50.8" y1="195.58" x2="63.5" y2="195.58" width="0.1524" layer="91"/>
+<label x="63.5" y="195.58" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="157.48" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<label x="50.8" y="160.02" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="50.8" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
+<label x="63.5" y="157.48" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="116.84" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
-<label x="50.8" y="119.38" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="50.8" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<label x="63.5" y="116.84" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="76.2" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
-<label x="50.8" y="78.74" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="50.8" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
+<label x="63.5" y="76.2" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
@@ -5457,15 +5456,15 @@ add EVE2 display connector</text>
 <net name="X_STEP" class="0">
 <segment>
 <pinref part="Q12" gate="G$1" pin="G"/>
-<wire x1="58.42" y1="175.26" x2="63.5" y2="175.26" width="0.1524" layer="91"/>
-<label x="63.5" y="175.26" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="58.42" y1="177.8" x2="63.5" y2="177.8" width="0.1524" layer="91"/>
+<label x="63.5" y="177.8" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="X_DIR" class="0">
 <segment>
 <pinref part="Q11" gate="G$1" pin="G"/>
-<wire x1="45.72" y1="175.26" x2="48.26" y2="175.26" width="0.1524" layer="91"/>
-<label x="48.26" y="175.26" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="45.72" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
+<label x="63.5" y="172.72" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5484,11 +5483,11 @@ add EVE2 display connector</text>
 <pinref part="X" gate="G$1" pin="2"/>
 <pinref part="Q11" gate="G$1" pin="D"/>
 <wire x1="33.02" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="182.88" x2="40.64" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X_STEP_5V1" class="0">
 <segment>
-<wire x1="53.34" y1="147.32" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
 <pinref part="Y" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="147.32" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
@@ -5510,11 +5509,11 @@ add EVE2 display connector</text>
 <pinref part="Y" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="33.02" y1="144.78" x2="40.64" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="144.78" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X_STEP_5V2" class="0">
 <segment>
-<wire x1="53.34" y1="106.68" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="D"/>
 <pinref part="Z" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
@@ -5536,11 +5535,11 @@ add EVE2 display connector</text>
 <pinref part="Z" gate="G$1" pin="2"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
 <wire x1="33.02" y1="104.14" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="104.14" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="X_STEP_5V3" class="0">
 <segment>
-<wire x1="53.34" y1="66.04" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="G$1" pin="D"/>
 <pinref part="A" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
@@ -5562,12 +5561,13 @@ add EVE2 display connector</text>
 <pinref part="A" gate="G$1" pin="2"/>
 <pinref part="Q6" gate="G$1" pin="D"/>
 <wire x1="33.02" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="63.5" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="Y_LIMIT" class="0">
 <segment>
 <wire x1="58.42" y1="149.86" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
-<label x="63.5" y="149.86" size="1.016" layer="95" rot="R90" xref="yes"/>
+<label x="63.5" y="149.86" size="1.016" layer="95" xref="yes"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
@@ -5578,21 +5578,21 @@ add EVE2 display connector</text>
 <net name="Y_STEP" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="58.42" y1="137.16" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
-<label x="63.5" y="137.16" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="58.42" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
+<label x="63.5" y="139.7" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="Y_DIR" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="45.72" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
-<label x="48.26" y="137.16" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="45.72" y1="134.62" x2="63.5" y2="134.62" width="0.1524" layer="91"/>
+<label x="63.5" y="134.62" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="Z_LIMIT" class="0">
 <segment>
 <wire x1="58.42" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
-<label x="63.5" y="109.22" size="1.016" layer="95" rot="R90" xref="yes"/>
+<label x="63.5" y="109.22" size="1.016" layer="95" xref="yes"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="109.22" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
@@ -5603,21 +5603,21 @@ add EVE2 display connector</text>
 <net name="Z_STEP" class="0">
 <segment>
 <pinref part="Q5" gate="G$1" pin="G"/>
-<wire x1="58.42" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
-<label x="63.5" y="96.52" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="58.42" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="63.5" y="99.06" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="Z_DIR" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="45.72" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
-<label x="48.26" y="96.52" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="45.72" y1="93.98" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
+<label x="63.5" y="93.98" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A_LIMIT" class="0">
 <segment>
 <wire x1="58.42" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
-<label x="63.5" y="68.58" size="1.016" layer="95" rot="R90" xref="yes"/>
+<label x="63.5" y="68.58" size="1.016" layer="95" xref="yes"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
@@ -5628,15 +5628,15 @@ add EVE2 display connector</text>
 <net name="A_STEP" class="0">
 <segment>
 <pinref part="Q7" gate="G$1" pin="G"/>
-<wire x1="58.42" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
-<label x="63.5" y="55.88" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="58.42" y1="58.42" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
+<label x="63.5" y="58.42" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A_DIR" class="0">
 <segment>
 <pinref part="Q6" gate="G$1" pin="G"/>
-<wire x1="45.72" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
-<label x="48.26" y="55.88" size="1.016" layer="95" rot="R90" xref="yes"/>
+<wire x1="45.72" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+<label x="63.5" y="53.34" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="X_STEP_5V4" class="0">
