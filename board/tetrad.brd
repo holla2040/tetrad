@@ -201,7 +201,7 @@
 <wire x1="1.5" y1="29.815" x2="1.5" y2="27.815" width="0.5" layer="51"/>
 <wire x1="0.5" y1="28.815" x2="2.5" y2="28.815" width="0.5" layer="52"/>
 <rectangle x1="87.63" y1="29.845" x2="95.25" y2="33.655" layer="51"/>
-<text x="87.884" y="34.036" size="0.9144" layer="51" ratio="20">hexad
+<text x="87.884" y="34.036" size="0.9144" layer="51" ratio="20">tetrad
 191101
 v1.0</text>
 <dimension x1="0" y1="100" x2="0" y2="0" x3="-3.81" y3="50" textsize="1.778" layer="51"/>
@@ -959,7 +959,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="27.04" y="34.715" size="0.9144" layer="25" ratio="20"/>
 <attribute name="VALUE" x="27.04" y="24.215" size="0.9144" layer="27" ratio="20"/>
 </element>
-<element name="Q1" library="holla" package="TO252" value="40V" x="14.635" y="26.715" smashed="yes">
+<element name="Q1" library="holla" package="TO252" value="FET-PCH-TO252" x="14.635" y="26.715" smashed="yes">
 <attribute name="NAME" x="11.475" y="33.117" size="0.9144" layer="25" ratio="20"/>
 <attribute name="VALUE" x="19.715" y="24.175" size="0.9144" layer="27" ratio="20" rot="R90"/>
 </element>
@@ -1026,11 +1026,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="23.65" y="14.651" size="0.9144" layer="25" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="24.666" y="11.095" size="0.9144" layer="27" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="Q12" library="holla" package="SOT23-3" value="" x="17.285" y="11.095" smashed="yes" rot="R90">
+<element name="Q12" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="17.285" y="11.095" smashed="yes" rot="R90">
 <attribute name="VALUE" x="14.0846" y="9.6726" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="17.78" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
-<element name="Q11" library="holla" package="SOT23-3" value="" x="12.92" y="11.095" smashed="yes" rot="R90">
+<element name="Q11" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="12.92" y="11.095" smashed="yes" rot="R90">
 <attribute name="VALUE" x="9.7196" y="9.6726" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="13.335" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
@@ -1046,11 +1046,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="37.973" y="14.732" size="0.9144" layer="25" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="38.481" y="11.43" size="0.9144" layer="27" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="Q3" library="holla" package="SOT23-3" value="" x="33.655" y="11.43" smashed="yes" rot="R90">
+<element name="Q3" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="33.655" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="30.4546" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="34.036" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
-<element name="Q2" library="holla" package="SOT23-3" value="" x="29.21" y="11.43" smashed="yes" rot="R90">
+<element name="Q2" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="29.21" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="26.0096" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="29.591" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
@@ -1066,11 +1066,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="54.483" y="14.732" size="0.9144" layer="25" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="54.991" y="11.43" size="0.9144" layer="27" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="Q5" library="holla" package="SOT23-3" value="" x="50.165" y="11.43" smashed="yes" rot="R90">
+<element name="Q5" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="50.165" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="46.9646" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="50.8" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
-<element name="Q4" library="holla" package="SOT23-3" value="" x="45.72" y="11.43" smashed="yes" rot="R90">
+<element name="Q4" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="45.72" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="42.5196" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="46.355" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
@@ -1086,11 +1086,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="70.993" y="14.732" size="0.9144" layer="25" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="71.501" y="11.43" size="0.9144" layer="27" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="Q7" library="holla" package="SOT23-3" value="" x="66.675" y="11.43" smashed="yes" rot="R90">
+<element name="Q7" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="66.675" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="63.4746" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="67.31" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
-<element name="Q6" library="holla" package="SOT23-3" value="" x="62.23" y="11.43" smashed="yes" rot="R90">
+<element name="Q6" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="62.23" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="59.0296" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="62.865" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
@@ -1098,11 +1098,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="73.533" y="14.732" size="0.9144" layer="25" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="74.041" y="11.43" size="0.9144" layer="27" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R7" library="holla" package="R-0603" value="2k" x="59.905" y="82.735" smashed="yes" rot="R180">
+<element name="R7" library="holla" package="R-0603" value="1k" x="59.905" y="82.735" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.905" y="84.767" size="0.9144" layer="25" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="59.905" y="83.751" size="0.9144" layer="27" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R1" library="holla" package="R-0603" value="2k" x="59.69" y="90.805" smashed="yes" rot="R180">
+<element name="R1" library="holla" package="R-0603" value="1k" x="59.69" y="90.805" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.69" y="92.837" size="0.9144" layer="25" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="59.69" y="91.821" size="0.9144" layer="27" ratio="20" rot="R180" align="top-center"/>
 </element>
@@ -1114,11 +1114,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="89.972" y="14.727" size="0.9144" layer="25" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="89.464" y="11.425" size="0.9144" layer="27" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q8" library="holla" package="SOT23-3" value="" x="82.55" y="11.43" smashed="yes" rot="R90">
+<element name="Q8" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="82.55" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="79.3496" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="83.185" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
-<element name="Q10" library="holla" package="SOT23-3" value="" x="78.115" y="11.425" smashed="yes" rot="R90">
+<element name="Q10" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="78.115" y="11.425" smashed="yes" rot="R90">
 <attribute name="VALUE" x="74.9146" y="10.0026" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="78.74" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>
@@ -1126,7 +1126,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="92.337" y="14.727" size="0.9144" layer="25" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="91.829" y="11.425" size="0.9144" layer="27" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="Q9" library="holla" package="SOT23-3" value="" x="86.995" y="11.43" smashed="yes" rot="R90">
+<element name="Q9" library="holla" package="SOT23-3" value="FET-NCH-SOT23" x="86.995" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="83.7946" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="87.63" y="13.335" size="0.9144" layer="25" ratio="20" rot="R90"/>
 </element>

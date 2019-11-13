@@ -2847,7 +2847,7 @@ https://www.digikey.com/short/j184w9</description>
 <wire x1="1.778" y1="0.508" x2="2.032" y2="0.254" width="0.1524" layer="94"/>
 <circle x="0" y="2.54" radius="0.3592" width="0" layer="94"/>
 <circle x="0" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<text x="2.54" y="0" size="1.27" layer="96" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="-2.032" y="3.556" size="1.016" layer="96" rot="R180" align="top-center">P-CH</text>
 <text x="-3.302" y="0.508" size="1.27" layer="95" rot="R90" align="bottom-right">&gt;NAME</text>
 <text x="-3.81" y="2.032" size="1.016" layer="97" rot="MR180">G</text>
 <text x="0.508" y="3.81" size="1.016" layer="97" rot="MR180">S</text>
@@ -2865,7 +2865,6 @@ https://www.digikey.com/short/j184w9</description>
 <vertex x="-1.016" y="0.762"/>
 <vertex x="-1.016" y="-0.762"/>
 </polygon>
-<text x="-0.254" y="3.81" size="1.016" layer="97" rot="MR0">P-CH</text>
 </symbol>
 <symbol name="D-ZENER">
 <wire x1="-0.762" y1="-0.762" x2="0.762" y2="0" width="0.127" layer="94"/>
@@ -2951,7 +2950,7 @@ https://www.digikey.com/short/j184w9</description>
 <wire x1="4.318" y1="0.508" x2="4.572" y2="0.254" width="0.1524" layer="94"/>
 <circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
 <circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<text x="4.826" y="0.254" size="1.27" layer="96" rot="R90" align="top-center">&gt;VALUE</text>
+<text x="0.508" y="-3.556" size="1.016" layer="96" align="top-center">N-CH</text>
 <text x="-0.762" y="-0.762" size="1.27" layer="95" rot="R90">&gt;NAME</text>
 <pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
@@ -2966,7 +2965,6 @@ https://www.digikey.com/short/j184w9</description>
 <vertex x="1.778" y="0.762"/>
 <vertex x="1.778" y="-0.762"/>
 </polygon>
-<text x="2.286" y="-3.556" size="1.016" layer="97" rot="R180">N-CH</text>
 <text x="3.048" y="3.048" size="1.016" layer="97">D</text>
 <text x="3.048" y="-4.064" size="1.016" layer="97">S</text>
 <text x="-1.27" y="-2.286" size="1.016" layer="97">G</text>
@@ -3413,7 +3411,7 @@ Various fiducial points for machine vision alignment.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FET-PCH" prefix="Q" uservalue="yes">
+<deviceset name="FET-PCH" prefix="Q">
 <gates>
 <gate name="G$1" symbol="FET-P-CHANNEL" x="15.24" y="0"/>
 </gates>
@@ -3920,7 +3918,7 @@ Various fiducial points for machine vision alignment.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FET-NCH" prefix="Q" uservalue="yes">
+<deviceset name="FET-NCH" prefix="Q">
 <gates>
 <gate name="G$1" symbol="FET-N-CHANNEL" x="0" y="0"/>
 </gates>
@@ -4397,7 +4395,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="FID2" library="holla" deviceset="FIDUCIAL" device="-MICRO"/>
 <part name="U2" library="holla" deviceset="RADIO-ESP32_DEVKIT" device=""/>
 <part name="U3" library="holla" deviceset="VREG" device="-SIP3" value="R-78E5.0-1.0"/>
-<part name="Q1" library="holla" deviceset="FET-PCH" device="-TO252" value="40V"/>
+<part name="Q1" library="holla" deviceset="FET-PCH" device="-TO252" value="FET-PCH-TO252"/>
 <part name="R17" library="holla" deviceset="R" device="-0603" value="100k"/>
 <part name="GND3" library="holla" deviceset="GND" device=""/>
 <part name="D2" library="holla" deviceset="DIODE-ZENER" device="-SOD323" value="VZ10"/>
@@ -4450,8 +4448,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="GND15" library="holla" deviceset="GND" device=""/>
 <part name="GND16" library="holla" deviceset="GND" device=""/>
 <part name="R23" library="holla" deviceset="R" device="-0603" value="10k"/>
-<part name="R7" library="holla" deviceset="R" device="-0603" value="2k"/>
-<part name="R1" library="holla" deviceset="R" device="-0603" value="2k"/>
+<part name="R7" library="holla" deviceset="R" device="-0603" value="1k"/>
+<part name="R1" library="holla" deviceset="R" device="-0603" value="1k"/>
 <part name="GND17" library="holla" deviceset="GND" device=""/>
 <part name="GND18" library="holla" deviceset="GND" device=""/>
 <part name="SPINDLE" library="holla" deviceset="CONN-06" device="-.100-VERT-HEADER"/>
@@ -4538,6 +4536,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <plain>
 <text x="10.16" y="203.2" size="1.778" layer="97">todo
 add EVE2 display connector</text>
+<text x="36.83" y="157.48" size="1.016" layer="97">40V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
