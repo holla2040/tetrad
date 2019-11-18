@@ -8,7 +8,7 @@ hex:
 	arduino --verbose --preserve-temp-files --verify $(ino)
 
 usb:
-	arduino --preserve-temp-files --upload --port /dev/ttyUSB0 $(ino) 
+	arduino --verbose --preserve-temp-files --upload --port /dev/ttyUSB0 $(ino) 
 
 flash: ota
 

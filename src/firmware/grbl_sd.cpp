@@ -180,6 +180,8 @@ uint8_t sd_state = SDCARD_IDLE;
 
 uint8_t get_sd_state(bool refresh)
 {
+
+/* CH111
 #if defined(SDCARD_DET_PIN) && SDCARD_SD_PIN != -1
   //no need to go further if SD detect is not correct
   if (!((digitalRead (SDCARD_DET_PIN) == SDCARD_DET_VAL) ? true : false)) {
@@ -187,6 +189,8 @@ uint8_t get_sd_state(bool refresh)
     return sd_state;
   }
 #endif
+*/
+
   //if busy doing something return state
   if (!((sd_state == SDCARD_NOT_PRESENT) || (sd_state == SDCARD_IDLE))) {
     return sd_state;
@@ -197,7 +201,7 @@ uint8_t get_sd_state(bool refresh)
   //SD is idle or not detected, let see if still the case
 
     SD.end();
-    sd_state = SDCARD_NOT_PRESENT;
+    // sd_state = SDCARD_NOT_PRESENT;
     //using default value for speed ? should be parameter
     //refresh content if card was removed
     if (SD.begin((GRBL_SPI_SS == -1)?SS:GRBL_SPI_SS, SPI, GRBL_SPI_FREQ)) {

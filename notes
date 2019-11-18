@@ -4,4 +4,17 @@ Avoid GPIO0 it is used to trigger boot mode.
 
 look at dring's board for esp32 connections
 
+bring up
+    in *ino, uncomment wifi_config.reset_settings(),run,comment out
+
+    connect via usb serial
+    from https://github.com/bdring/Grbl_Esp32/blob/master/doc/Commands.txt
+    [ESP100]apname
+    [ESP101]password
+    [ESP102]DHCP
+    [ESP110]STA
+    check settings with [ESP401]
+    
+    
+
 
