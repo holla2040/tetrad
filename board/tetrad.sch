@@ -4054,7 +4054,7 @@ also Amphenol - 101-00660-68-6</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IO-MCP23017" prefix="U" uservalue="yes">
+<deviceset name="IO-MCP23017" prefix="U">
 <description>16-bit input/output port expander with interrupt output&lt;br&gt;
 
 &lt;b&gt;http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf&lt;/b&gt;&lt;p&gt;

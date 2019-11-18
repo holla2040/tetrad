@@ -1178,7 +1178,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="91.0812" y="67.3688" size="0.9144" layer="25" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="96.085" y="67.445" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U1" library="holla" package="SO28W" value="" x="25" y="80" smashed="yes">
+<element name="U1" library="holla" package="SO28W" value="IO-MCP23017SO" x="25" y="80" smashed="yes">
 <attribute name="OC_NEWARK" value="31K2958" x="25" y="80" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="MICROCHIP" x="25" y="80" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1332087" x="25" y="80" size="1.778" layer="27" display="off"/>
