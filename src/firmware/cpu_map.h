@@ -38,7 +38,7 @@
 	
 //Set your pin definition 
 //let -1 to use default board pin
-#define GRBL_SPI_SS 34
+#define GRBL_SPI_SS 25
 #define GRBL_SPI_MOSI 23
 #define GRBL_SPI_MISO 19
 #define GRBL_SPI_SCK 18
