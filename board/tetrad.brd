@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
@@ -801,6 +801,87 @@ Digikey WM4206-ND</description>
 <text x="-6.35" y="-17.78" size="0.9144" layer="25" ratio="20">&gt;NAME</text>
 <text x="-6.35" y="-19.05" size="0.9144" layer="27" ratio="20">&gt;VALUE</text>
 </package>
+<package name="MOLEX_0430450614">
+<wire x1="-6.575" y1="-1.5" x2="-6.575" y2="3.97" width="0.127" layer="21"/>
+<wire x1="-6.575" y1="3.97" x2="6.575" y2="3.97" width="0.127" layer="21"/>
+<wire x1="6.575" y1="3.97" x2="6.575" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="6.575" y1="-3.4" x2="6.575" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="6.575" y1="-4.8" x2="-6.575" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-6.575" y1="-4.8" x2="-6.575" y2="-3.4" width="0.127" layer="21"/>
+<wire x1="6.825" y1="-5.05" x2="-6.825" y2="-5.05" width="0.05" layer="39"/>
+<wire x1="-6.825" y1="-5.05" x2="-6.825" y2="4.22" width="0.05" layer="39"/>
+<wire x1="-6.825" y1="4.22" x2="6.825" y2="4.22" width="0.05" layer="39"/>
+<wire x1="6.825" y1="4.22" x2="6.825" y2="-5.05" width="0.05" layer="39"/>
+<text x="0" y="4.445" size="0.9144" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="-6.506740625" y="-6.508759375" size="0.9144" layer="27" ratio="20">&gt;VALUE</text>
+<circle x="-2.982" y="4.902" radius="0.1" width="0.3" layer="21"/>
+<wire x1="6.575" y1="-3.4" x2="-6.575" y2="-3.4" width="0.127" layer="51"/>
+<wire x1="-6.575" y1="-3.4" x2="-6.575" y2="3.97" width="0.127" layer="51"/>
+<wire x1="-6.575" y1="3.97" x2="6.575" y2="3.97" width="0.127" layer="51"/>
+<wire x1="6.575" y1="3.97" x2="6.575" y2="-3.4" width="0.127" layer="51"/>
+<wire x1="6.575" y1="-3.4" x2="6.575" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="6.575" y1="-4.8" x2="-6.575" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-6.575" y1="-4.8" x2="-6.575" y2="-3.4" width="0.127" layer="51"/>
+<circle x="-2.982" y="4.902" radius="0.254" width="0.3" layer="51"/>
+<pad name="1" x="-3" y="1.5" drill="1.02" shape="square" rot="R180"/>
+<pad name="2" x="0" y="1.5" drill="1.02" rot="R180"/>
+<pad name="4" x="-3" y="-1.5" drill="1.02" rot="R180"/>
+<pad name="5" x="0" y="-1.5" drill="1.02" rot="R180"/>
+<hole x="6" y="-2.44" drill="1.02"/>
+<hole x="-6" y="-2.44" drill="1.02"/>
+<pad name="6" x="3" y="-1.5" drill="1.02" rot="R180"/>
+<pad name="3" x="3" y="1.5" drill="1.02" rot="R180"/>
+</package>
+<package name="IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER">
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="51"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.127" layer="21"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-7.87" y1="10.41" x2="7.87" y2="10.41" width="0.05" layer="39"/>
+<wire x1="7.87" y1="10.41" x2="7.87" y2="-10.41" width="0.05" layer="39"/>
+<wire x1="7.87" y1="-10.41" x2="-7.87" y2="-10.41" width="0.05" layer="39"/>
+<wire x1="-7.87" y1="-10.41" x2="-7.87" y2="10.41" width="0.05" layer="39"/>
+<circle x="-8.6" y="9" radius="0.1" width="0.2" layer="21"/>
+<circle x="-8.6" y="9" radius="0.254" width="0.254" layer="51"/>
+<text x="-7.62" y="10.795" size="0.9144" layer="25" ratio="20">&gt;NAME</text>
+<text x="7.62" y="10.795" size="0.9144" layer="27" ratio="20" align="bottom-right">&gt;VALUE</text>
+<pad name="4" x="-6.35" y="1.27" drill="1.1"/>
+<pad name="13" x="6.35" y="1.27" drill="1.1"/>
+<pad name="5" x="-6.35" y="-1.27" drill="1.1"/>
+<pad name="6" x="-6.35" y="-3.81" drill="1.1"/>
+<pad name="7" x="-6.35" y="-6.35" drill="1.1"/>
+<pad name="8" x="-6.35" y="-8.89" drill="1.1"/>
+<pad name="3" x="-6.35" y="3.81" drill="1.1"/>
+<pad name="2" x="-6.35" y="6.35" drill="1.1"/>
+<pad name="1" x="-6.35" y="8.89" drill="1.1" shape="square"/>
+<pad name="14" x="6.35" y="3.81" drill="1.1"/>
+<pad name="15" x="6.35" y="6.35" drill="1.1"/>
+<pad name="16" x="6.35" y="8.89" drill="1.1"/>
+<pad name="12" x="6.35" y="-1.27" drill="1.1"/>
+<pad name="11" x="6.35" y="-3.81" drill="1.1"/>
+<pad name="10" x="6.35" y="-6.35" drill="1.1"/>
+<pad name="9" x="6.35" y="-8.89" drill="1.1"/>
+<text x="-5.08" y="8.89" size="0.9144" layer="51" ratio="20" align="center-left">!ENABLE</text>
+<text x="-5.08" y="6.35" size="0.9144" layer="51" ratio="20" align="center-left">M0</text>
+<text x="-5.08" y="3.81" size="0.9144" layer="51" ratio="20" align="center-left">M1</text>
+<text x="-5.08" y="1.27" size="0.9144" layer="51" ratio="20" align="center-left">M2</text>
+<text x="-5.08" y="-1.27" size="0.9144" layer="51" ratio="20" align="center-left">!RESET</text>
+<text x="-5.08" y="-3.81" size="0.9144" layer="51" ratio="20" align="center-left">!SLEEP</text>
+<text x="-5.08" y="-6.35" size="0.9144" layer="51" ratio="20" align="center-left">STEP</text>
+<text x="-5.08" y="-8.89" size="0.9144" layer="51" ratio="20" align="center-left">DIR</text>
+<text x="5.08" y="8.89" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">VMOTOR</text>
+<text x="5.08" y="6.35" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">GND</text>
+<text x="5.08" y="3.81" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">B2</text>
+<text x="5.08" y="1.27" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">B1</text>
+<text x="5.08" y="-1.27" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">A1</text>
+<text x="5.08" y="-3.81" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">A2</text>
+<text x="5.08" y="-6.35" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">FAULT</text>
+<text x="5.08" y="-8.89" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">GND</text>
+</package>
 </packages>
 </library>
 </libraries>
@@ -1344,6 +1425,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_PART_NUMBER" value="2849520" x="81.9785" y="47.1805" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U2" library="holla" package="ESP32_DEVKIT" value="RADIO-ESP32_DEVKIT" x="51.94" y="75.56"/>
+<element name="J2" library="holla" package="MOLEX_0430450614" value="CONN-03X2-MICROFIT-430450612" x="-22.86" y="-7.62">
+<attribute name="PRICE" value="None" x="-22.86" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="430450612" x="-22.86" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Molex" x="-22.86" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="None" x="-22.86" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="AVAILABILITY" value="Unavailable" x="-22.86" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Conn Power HDR 6 POS 3mm Solder ST Thru-Hole 6 Terminal 1 Port Micro-Fit 3.0Ã¢â¢ Tray " x="-22.86" y="-7.62" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U4" library="holla" package="IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER" value="" x="-48.26" y="2.54">
+<attribute name="PRICE" value="None" x="-48.26" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="DRV8825 STEPPER MOTOR DRIVER CARRIER" x="-48.26" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Pololu" x="-48.26" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="None" x="-48.26" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="AVAILABILITY" value="Unavailable" x="-48.26" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Stepper motor controler; IC: DRV8825; 1.5A; Uin mot: 8.2÷45V " x="-48.26" y="2.54" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="5V0">
@@ -1413,7 +1510,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="39.235" y1="57.785" x2="39.24" y2="57.78" width="0" layer="19" extent="16-16"/>
 <wire x1="23.5" y1="57.78" x2="33.715" y2="55.94" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="GND">
+<signal name="GND" airwireshidden="yes">
 <contactref element="R17" pad="1"/>
 <contactref element="C14" pad="-"/>
 <contactref element="U3" pad="2"/>
@@ -1488,6 +1585,73 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J17" pad="20"/>
 <contactref element="U2" pad="GND@2"/>
 <contactref element="U2" pad="GND@1"/>
+<contactref element="U4" pad="15"/>
+<contactref element="U4" pad="9"/>
+<wire x1="83.5" y1="93.04" x2="86.6" y2="95.54" width="0" layer="19" extent="1-1"/>
+<wire x1="89.53" y1="91.96" x2="86.6" y2="95.54" width="0" layer="19" extent="1-1"/>
+<wire x1="73.4" y1="96.44" x2="83.5" y2="93.04" width="0" layer="19" extent="1-1"/>
+<wire x1="92.91" y1="68.715" x2="89.53" y2="91.96" width="0" layer="19" extent="1-1"/>
+<wire x1="94.975" y1="61.6" x2="92.91" y2="68.715" width="0" layer="19" extent="1-1"/>
+<wire x1="91.4785" y1="51.0921" x2="94.975" y2="61.6" width="0" layer="19" extent="1-1"/>
+<wire x1="90.4785" y1="51.0921" x2="91.4785" y2="51.0921" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="68.58" x2="92.91" y2="68.715" width="0" layer="19" extent="1-1"/>
+<wire x1="64.64" y1="60.32" x2="76.2" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="60" y1="55.785" x2="64.64" y2="60.32" width="0" layer="19" extent="1-1"/>
+<wire x1="59.15" y1="68" x2="64.64" y2="60.32" width="0" layer="19" extent="1-1"/>
+<wire x1="59.15" y1="75.365" x2="59.15" y2="68" width="0" layer="19" extent="1-1"/>
+<wire x1="73.478503125" y1="51.0921" x2="64.64" y2="60.32" width="0" layer="19" extent="1-1"/>
+<wire x1="45.85" y1="68" x2="59.15" y2="68" width="0" layer="19" extent="1-1"/>
+<wire x1="45.215" y1="76.635" x2="45.85" y2="68" width="0" layer="19" extent="1-1"/>
+<wire x1="45.85" y1="83" x2="45.215" y2="76.635" width="0" layer="19" extent="1-1"/>
+<wire x1="50.85" y1="88" x2="45.85" y2="83" width="0" layer="19" extent="1-1"/>
+<wire x1="39.24" y1="60.32" x2="45.85" y2="68" width="0" layer="19" extent="1-1"/>
+<wire x1="33.89" y1="84.78" x2="45.85" y2="83" width="0" layer="19" extent="1-1"/>
+<wire x1="32.62" y1="84.78" x2="33.89" y2="84.78" width="0" layer="19" extent="1-1"/>
+<wire x1="31.35" y1="84.78" x2="32.62" y2="84.78" width="0" layer="19" extent="1-1"/>
+<wire x1="28.81" y1="75.22" x2="31.35" y2="84.78" width="0" layer="19" extent="1-1"/>
+<wire x1="26.15" y1="72" x2="28.81" y2="75.22" width="0" layer="19" extent="1-1"/>
+<wire x1="33" y1="95" x2="32.62" y2="84.78" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="95" x2="33" y2="95" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="95" x2="27" y2="95" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="95" x2="21" y2="95" width="0" layer="19" extent="1-1"/>
+<wire x1="11" y1="84.15" x2="15" y2="95" width="0" layer="19" extent="1-1"/>
+<wire x1="11" y1="78.15" x2="11" y2="84.15" width="0" layer="19" extent="1-1"/>
+<wire x1="11" y1="72.15" x2="11" y2="78.15" width="0" layer="19" extent="1-1"/>
+<wire x1="11" y1="66.15" x2="11" y2="72.15" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="87" x2="11" y2="84.15" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="81" x2="5" y2="87" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="75" x2="5" y2="81" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="69" x2="5" y2="75" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="62" x2="5" y2="69" width="0" layer="19" extent="1-1"/>
+<wire x1="5" y1="55" x2="5" y2="62" width="0" layer="19" extent="1-1"/>
+<wire x1="17.645" y1="62.56" x2="11" y2="66.15" width="0" layer="19" extent="1-1"/>
+<wire x1="42.255" y1="42.905" x2="39.24" y2="60.32" width="0" layer="19" extent="1-1"/>
+<wire x1="36.255" y1="42.905" x2="42.255" y2="42.905" width="0" layer="19" extent="1-1"/>
+<wire x1="29.97" y1="42.895" x2="36.255" y2="42.905" width="0" layer="19" extent="1-1"/>
+<wire x1="44.785" y1="36.715" x2="42.255" y2="42.905" width="0" layer="19" extent="1-1"/>
+<wire x1="43.54" y1="33.365" x2="44.785" y2="36.715" width="0" layer="19" extent="1-1"/>
+<wire x1="22.175" y1="33.365" x2="29.97" y2="42.895" width="0" layer="19" extent="1-1"/>
+<wire x1="32.54" y1="27.715" x2="22.175" y2="33.365" width="0" layer="19" extent="1-1"/>
+<wire x1="34.655" y1="12.38" x2="32.54" y2="27.715" width="0" layer="19" extent="1-1"/>
+<wire x1="30.21" y1="12.38" x2="34.655" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="27.305" y1="4.445" x2="30.21" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="18.285" y1="12.045" x2="27.305" y2="4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="13.92" y1="12.045" x2="18.285" y2="12.045" width="0" layer="19" extent="1-1"/>
+<wire x1="10.795" y1="4.445" x2="13.92" y2="12.045" width="0" layer="19" extent="1-1"/>
+<wire x1="46.72" y1="12.38" x2="34.655" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="51.165" y1="12.38" x2="46.72" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="43.815" y1="4.445" x2="46.72" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="63.23" y1="12.38" x2="51.165" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="67.675" y1="12.38" x2="63.23" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="60.325" y1="4.445" x2="63.23" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="79.115" y1="12.375" x2="67.675" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="83.55" y1="12.38" x2="79.115" y2="12.375" width="0" layer="19" extent="1-1"/>
+<wire x1="87.995" y1="12.38" x2="83.55" y2="12.38" width="0" layer="19" extent="1-1"/>
+<wire x1="76.835" y1="4.445" x2="79.115" y2="12.375" width="0" layer="19" extent="1-1"/>
+<wire x1="8.15" y1="24.715" x2="13.92" y2="12.045" width="0" layer="19" extent="1-1"/>
+<wire x1="6" y1="32.62" x2="8.15" y2="24.715" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.91" y1="8.89" x2="8.15" y2="24.715" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.91" y1="-6.35" x2="-41.91" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="Q1" pad="1"/>
@@ -1564,7 +1728,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="6" y1="28.81" x2="14.23" y2="28.81" width="2.032" layer="1"/>
 <wire x1="14.23" y1="28.81" x2="14.635" y2="29.215" width="1.016" layer="1"/>
 </signal>
-<signal name="3V3">
+<signal name="3V3" airwireshidden="yes">
 <contactref element="J1" pad="4"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C13" pad="2"/>
@@ -2415,6 +2579,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="INT_DISPLAY">
 <contactref element="J17" pad="7"/>
+</signal>
+<signal name="VMOTOR">
+<contactref element="U4" pad="16"/>
 </signal>
 </signals>
 </board>

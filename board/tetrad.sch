@@ -2710,6 +2710,87 @@ https://www.digikey.com/short/j184w9</description>
 <text x="-6.35" y="-17.78" size="0.9144" layer="25" ratio="20">&gt;NAME</text>
 <text x="-6.35" y="-19.05" size="0.9144" layer="27" ratio="20">&gt;VALUE</text>
 </package>
+<package name="MOLEX_0430450614">
+<wire x1="-6.575" y1="-1.5" x2="-6.575" y2="3.97" width="0.127" layer="21"/>
+<wire x1="-6.575" y1="3.97" x2="6.575" y2="3.97" width="0.127" layer="21"/>
+<wire x1="6.575" y1="3.97" x2="6.575" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="6.575" y1="-3.4" x2="6.575" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="6.575" y1="-4.8" x2="-6.575" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-6.575" y1="-4.8" x2="-6.575" y2="-3.4" width="0.127" layer="21"/>
+<wire x1="6.825" y1="-5.05" x2="-6.825" y2="-5.05" width="0.05" layer="39"/>
+<wire x1="-6.825" y1="-5.05" x2="-6.825" y2="4.22" width="0.05" layer="39"/>
+<wire x1="-6.825" y1="4.22" x2="6.825" y2="4.22" width="0.05" layer="39"/>
+<wire x1="6.825" y1="4.22" x2="6.825" y2="-5.05" width="0.05" layer="39"/>
+<text x="0" y="4.445" size="0.9144" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="-6.506740625" y="-6.508759375" size="0.9144" layer="27" ratio="20">&gt;VALUE</text>
+<circle x="-2.982" y="4.902" radius="0.1" width="0.3" layer="21"/>
+<wire x1="6.575" y1="-3.4" x2="-6.575" y2="-3.4" width="0.127" layer="51"/>
+<wire x1="-6.575" y1="-3.4" x2="-6.575" y2="3.97" width="0.127" layer="51"/>
+<wire x1="-6.575" y1="3.97" x2="6.575" y2="3.97" width="0.127" layer="51"/>
+<wire x1="6.575" y1="3.97" x2="6.575" y2="-3.4" width="0.127" layer="51"/>
+<wire x1="6.575" y1="-3.4" x2="6.575" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="6.575" y1="-4.8" x2="-6.575" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-6.575" y1="-4.8" x2="-6.575" y2="-3.4" width="0.127" layer="51"/>
+<circle x="-2.982" y="4.902" radius="0.254" width="0.3" layer="51"/>
+<pad name="1" x="-3" y="1.5" drill="1.02" shape="square" rot="R180"/>
+<pad name="2" x="0" y="1.5" drill="1.02" rot="R180"/>
+<pad name="4" x="-3" y="-1.5" drill="1.02" rot="R180"/>
+<pad name="5" x="0" y="-1.5" drill="1.02" rot="R180"/>
+<hole x="6" y="-2.44" drill="1.02"/>
+<hole x="-6" y="-2.44" drill="1.02"/>
+<pad name="6" x="3" y="-1.5" drill="1.02" rot="R180"/>
+<pad name="3" x="3" y="1.5" drill="1.02" rot="R180"/>
+</package>
+<package name="IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER">
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="51"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.127" layer="21"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-7.87" y1="10.41" x2="7.87" y2="10.41" width="0.05" layer="39"/>
+<wire x1="7.87" y1="10.41" x2="7.87" y2="-10.41" width="0.05" layer="39"/>
+<wire x1="7.87" y1="-10.41" x2="-7.87" y2="-10.41" width="0.05" layer="39"/>
+<wire x1="-7.87" y1="-10.41" x2="-7.87" y2="10.41" width="0.05" layer="39"/>
+<circle x="-8.6" y="9" radius="0.1" width="0.2" layer="21"/>
+<circle x="-8.6" y="9" radius="0.254" width="0.254" layer="51"/>
+<text x="-7.62" y="10.795" size="0.9144" layer="25" ratio="20">&gt;NAME</text>
+<text x="7.62" y="10.795" size="0.9144" layer="27" ratio="20" align="bottom-right">&gt;VALUE</text>
+<pad name="4" x="-6.35" y="1.27" drill="1.1"/>
+<pad name="13" x="6.35" y="1.27" drill="1.1"/>
+<pad name="5" x="-6.35" y="-1.27" drill="1.1"/>
+<pad name="6" x="-6.35" y="-3.81" drill="1.1"/>
+<pad name="7" x="-6.35" y="-6.35" drill="1.1"/>
+<pad name="8" x="-6.35" y="-8.89" drill="1.1"/>
+<pad name="3" x="-6.35" y="3.81" drill="1.1"/>
+<pad name="2" x="-6.35" y="6.35" drill="1.1"/>
+<pad name="1" x="-6.35" y="8.89" drill="1.1" shape="square"/>
+<pad name="14" x="6.35" y="3.81" drill="1.1"/>
+<pad name="15" x="6.35" y="6.35" drill="1.1"/>
+<pad name="16" x="6.35" y="8.89" drill="1.1"/>
+<pad name="12" x="6.35" y="-1.27" drill="1.1"/>
+<pad name="11" x="6.35" y="-3.81" drill="1.1"/>
+<pad name="10" x="6.35" y="-6.35" drill="1.1"/>
+<pad name="9" x="6.35" y="-8.89" drill="1.1"/>
+<text x="-5.08" y="8.89" size="0.9144" layer="51" ratio="20" align="center-left">!ENABLE</text>
+<text x="-5.08" y="6.35" size="0.9144" layer="51" ratio="20" align="center-left">M0</text>
+<text x="-5.08" y="3.81" size="0.9144" layer="51" ratio="20" align="center-left">M1</text>
+<text x="-5.08" y="1.27" size="0.9144" layer="51" ratio="20" align="center-left">M2</text>
+<text x="-5.08" y="-1.27" size="0.9144" layer="51" ratio="20" align="center-left">!RESET</text>
+<text x="-5.08" y="-3.81" size="0.9144" layer="51" ratio="20" align="center-left">!SLEEP</text>
+<text x="-5.08" y="-6.35" size="0.9144" layer="51" ratio="20" align="center-left">STEP</text>
+<text x="-5.08" y="-8.89" size="0.9144" layer="51" ratio="20" align="center-left">DIR</text>
+<text x="5.08" y="8.89" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">VMOTOR</text>
+<text x="5.08" y="6.35" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">GND</text>
+<text x="5.08" y="3.81" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">B2</text>
+<text x="5.08" y="1.27" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">B1</text>
+<text x="5.08" y="-1.27" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">A1</text>
+<text x="5.08" y="-3.81" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">A2</text>
+<text x="5.08" y="-6.35" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">FAULT</text>
+<text x="5.08" y="-8.89" size="0.9144" layer="51" ratio="20" rot="R180" align="center-left">GND</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_A_L">
@@ -3224,6 +3305,43 @@ https://www.digikey.com/short/j184w9</description>
 <wire x1="-2.54" y1="-20.32" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-17.78" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-17.78" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+</symbol>
+<symbol name="0430450614">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="5.589809375" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-6.877" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="2.54" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="0" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-2.54" length="short" direction="pas"/>
+<pin name="4" x="7.62" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="DRV8825_STEPPER_MOTOR_DRIVER_CARRIER">
+<wire x1="-10.16" y1="17.78" x2="10.16" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="17.78" width="0.1524" layer="94"/>
+<text x="-10.16" y="18.034" size="1.27" layer="95">&gt;NAME</text>
+<text x="10.16" y="18.034" size="1.27" layer="96" rot="MR0">&gt;VALUE</text>
+<pin name="!ENABLE" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="M0" x="12.7" y="10.16" length="short" direction="in" rot="R180"/>
+<pin name="M1" x="12.7" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="M2" x="12.7" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="!RESET" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="!SLEEP" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="STEP" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="DIR" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="VMOTOR" x="12.7" y="15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="B2" x="12.7" y="-10.16" length="short" direction="out" rot="R180"/>
+<pin name="B1" x="12.7" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="A1" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="A2" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="!FAULT" x="-12.7" y="-7.62" length="short" direction="out"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4569,6 +4687,71 @@ A100319CT-ND</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CONN-03X2-MICROFIT" prefix="J">
+<description>Conn Power HDR 6 POS 3mm Solder ST Thru-Hole 6 Terminal 1 Port Micro-Fit 3.0Ã¢â¢ Tray</description>
+<gates>
+<gate name="G$1" symbol="0430450614" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-430450612" package="MOLEX_0430450614">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Conn Power HDR 6 POS 3mm Solder ST Thru-Hole 6 Terminal 1 Port Micro-Fit 3.0Ã¢â¢ Tray "/>
+<attribute name="MF" value="Molex"/>
+<attribute name="MP" value="430450612"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOARD-DRV8825-CARRIER" prefix="U" uservalue="yes">
+<description>Stepper motor controler; IC: DRV8825; 1.5A; Uin mot: 8.2÷45V</description>
+<gates>
+<gate name="G$1" symbol="DRV8825_STEPPER_MOTOR_DRIVER_CARRIER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER">
+<connects>
+<connect gate="G$1" pin="!ENABLE" pad="1"/>
+<connect gate="G$1" pin="!FAULT" pad="10"/>
+<connect gate="G$1" pin="!RESET" pad="5"/>
+<connect gate="G$1" pin="!SLEEP" pad="6"/>
+<connect gate="G$1" pin="A1" pad="12"/>
+<connect gate="G$1" pin="A2" pad="11"/>
+<connect gate="G$1" pin="B1" pad="13"/>
+<connect gate="G$1" pin="B2" pad="14"/>
+<connect gate="G$1" pin="DIR" pad="8"/>
+<connect gate="G$1" pin="GND" pad="9 15"/>
+<connect gate="G$1" pin="M0" pad="2"/>
+<connect gate="G$1" pin="M1" pad="3"/>
+<connect gate="G$1" pin="M2" pad="4"/>
+<connect gate="G$1" pin="STEP" pad="7"/>
+<connect gate="G$1" pin="VMOTOR" pad="16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Stepper motor controler; IC: DRV8825; 1.5A; Uin mot: 8.2÷45V "/>
+<attribute name="MF" value="Pololu"/>
+<attribute name="MP" value="DRV8825 STEPPER MOTOR DRIVER CARRIER"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4723,6 +4906,8 @@ A100319CT-ND</description>
 <part name="GND49" library="holla" deviceset="GND" device=""/>
 <part name="GND50" library="holla" deviceset="GND" device=""/>
 <part name="U2" library="holla" deviceset="RADIO-ESP32_DEVKIT" device=""/>
+<part name="J2" library="holla" deviceset="CONN-03X2-MICROFIT" device="-430450612"/>
+<part name="U4" library="holla" deviceset="BOARD-DRV8825-CARRIER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4734,7 +4919,9 @@ CS_SD is on an input only pin, fix this
 replace esp32 with new lib part, reroute
 check audio pin on FFC connector
 https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
-check if D14 and D15 PWM out on startup</text>
+check if D14 and D15 PWM out on startup
+add 0430450612 headers
+add drv8825 board headers</text>
 <text x="138.43" y="193.04" size="1.016" layer="97">40V</text>
 <text x="262.89" y="7.112" size="2.54" layer="97">V1.1</text>
 </plain>
@@ -4795,6 +4982,7 @@ check if D14 and D15 PWM out on startup</text>
 <instance part="GND47" gate="1" x="233.68" y="177.8"/>
 <instance part="RESET" gate="G$1" x="190.5" y="180.34"/>
 <instance part="U2" gate="G$1" x="106.68" y="88.9"/>
+<instance part="U4" gate="G$1" x="40.64" y="33.02"/>
 </instances>
 <busses>
 </busses>
@@ -5350,6 +5538,7 @@ check if D14 and D15 PWM out on startup</text>
 <instance part="J17" gate="A" x="210.82" y="121.92"/>
 <instance part="GND49" gate="1" x="203.2" y="142.24"/>
 <instance part="GND50" gate="1" x="203.2" y="93.98"/>
+<instance part="J2" gate="G$1" x="248.92" y="147.32"/>
 </instances>
 <busses>
 </busses>
