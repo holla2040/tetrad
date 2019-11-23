@@ -4687,7 +4687,7 @@ A100319CT-ND</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN-03X2-MICROFIT" prefix="J">
+<deviceset name="CONN-03X2-MICROFIT" prefix="J" uservalue="yes">
 <description>Conn Power HDR 6 POS 3mm Solder ST Thru-Hole 6 Terminal 1 Port Micro-Fit 3.0Ã¢â¢ Tray</description>
 <gates>
 <gate name="G$1" symbol="0430450614" x="0" y="0"/>
@@ -4908,6 +4908,14 @@ A100319CT-ND</description>
 <part name="U2" library="holla" deviceset="RADIO-ESP32_DEVKIT" device=""/>
 <part name="J2" library="holla" deviceset="CONN-03X2-MICROFIT" device="-430450612"/>
 <part name="U4" library="holla" deviceset="BOARD-DRV8825-CARRIER" device=""/>
+<part name="J3" library="holla" deviceset="CONN-03X2-MICROFIT" device="-430450612"/>
+<part name="J4" library="holla" deviceset="CONN-03X2-MICROFIT" device="-430450612"/>
+<part name="J5" library="holla" deviceset="CONN-03X2-MICROFIT" device="-430450612"/>
+<part name="J6" library="holla" deviceset="CONN-03X2-MICROFIT" device="-430450612"/>
+<part name="J7" library="holla" deviceset="CONN-03X2-MICROFIT" device="-430450612"/>
+<part name="U5" library="holla" deviceset="BOARD-DRV8825-CARRIER" device=""/>
+<part name="U6" library="holla" deviceset="BOARD-DRV8825-CARRIER" device=""/>
+<part name="U7" library="holla" deviceset="BOARD-DRV8825-CARRIER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4921,7 +4929,8 @@ check audio pin on FFC connector
 https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
 check if D14 and D15 PWM out on startup
 add 0430450612 headers
-add drv8825 board headers</text>
+add drv8825 board headers
+switch 23017 to qfn</text>
 <text x="138.43" y="193.04" size="1.016" layer="97">40V</text>
 <text x="262.89" y="7.112" size="2.54" layer="97">V1.1</text>
 </plain>
@@ -4982,7 +4991,15 @@ add drv8825 board headers</text>
 <instance part="GND47" gate="1" x="233.68" y="177.8"/>
 <instance part="RESET" gate="G$1" x="190.5" y="180.34"/>
 <instance part="U2" gate="G$1" x="106.68" y="88.9"/>
-<instance part="U4" gate="G$1" x="40.64" y="33.02"/>
+<instance part="U4" gate="G$1" x="25.4" y="137.16"/>
+<instance part="J3" gate="G$1" x="78.74" y="38.1"/>
+<instance part="J4" gate="G$1" x="99.06" y="38.1"/>
+<instance part="J5" gate="G$1" x="116.84" y="38.1"/>
+<instance part="J6" gate="G$1" x="137.16" y="38.1"/>
+<instance part="J7" gate="G$1" x="157.48" y="38.1"/>
+<instance part="U5" gate="G$1" x="25.4" y="99.06"/>
+<instance part="U6" gate="G$1" x="25.4" y="60.96"/>
+<instance part="U7" gate="G$1" x="25.4" y="22.86"/>
 </instances>
 <busses>
 </busses>
