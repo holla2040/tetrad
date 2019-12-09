@@ -5,11 +5,10 @@ ino = $(wildcard *.ino)
 
 hex:
 	cp preferences.txt ~/.arduino15
-	# arduino --verbose --preserve-temp-files --verify $(ino)
-	arduino --preserve-temp-files --verify $(ino)
+	~/arduino/arduino --preserve-temp-files --verify $(ino)
 
 usb:
-	arduino --verbose --preserve-temp-files --upload --port /dev/ttyUSB0 $(ino) 
+	~/arduino/arduino --preserve-temp-files --upload --port /dev/ttyUSB0 $(ino) 
 
 flash: ota
 

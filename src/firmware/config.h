@@ -50,7 +50,7 @@ Some features should not be changed. See notes below.
 // #define CPU_MAP_TEST_DRIVE // these are defined in cpu_map.h
 #define VERBOSE_HELP // adds addition help info, but could confuse some senders
 
-#define CPU_MAP_ESP32
+// #define CPU_MAP_ESP32
 
 
 // Serial baud rate
@@ -64,7 +64,7 @@ Some features should not be changed. See notes below.
 
 #define ENABLE_HTTP //enable HTTP and all related services
 #define ENABLE_OTA  //enable OTA
-// #define ENABLE_TELNET //enable telnet
+#define ENABLE_TELNET //enable telnet
 // #define ENABLE_TELNET_WELCOME_MSG //display welcome string when connect to telnet
 #define ENABLE_MDNS //enable mDNS discovery
 // #define ENABLE_SSDP //enable UPNP discovery
@@ -739,6 +739,29 @@ Some features should not be changed. See notes below.
 // Paste CPU_MAP definitions here.
 
 // Paste default settings definitions here.
+
+
+
+#define USE_RMT_STEPS
+
+#define X_RMT_CHANNEL		0
+#define X_DIRECTION_PIN     GPIO_NUM_12
+#define X_STEP_PIN          GPIO_NUM_13
+
+#define Y_RMT_CHANNEL		1
+#define Y_DIRECTION_PIN     GPIO_NUM_26
+#define Y_STEP_PIN          GPIO_NUM_27
+
+#define Z_RMT_CHANNEL		2
+#define Z_DIRECTION_PIN     GPIO_NUM_32
+#define Z_STEP_PIN          GPIO_NUM_33
+
+#define A_RMT_CHANNEL		3
+#define A_DIRECTION_PIN     GPIO_NUM_2
+#define A_STEP_PIN          GPIO_NUM_15
+
+
+#define LIMIT_MASK      	B000
 
 
 #endif

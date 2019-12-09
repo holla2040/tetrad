@@ -1,7 +1,9 @@
 /*
   Grbl_ESP32.ino - Header for system level commands and real-time processes
   Part of Grbl
-2018 -	Bart Dring This file was modified for use on the ESP32
+  Copyright (c) 2014-2016 Sungeun K. Jeon for Gnea Research LLC
+	
+	2018 -	Bart Dring This file was modified for use on the ESP32
 					CPU. Do not use this with Grbl for atMega328P
 	
   Grbl is free software: you can redistribute it and/or modify
@@ -78,7 +80,7 @@ void setup() {
     if (bit_istrue(settings.flags,BITFLAG_HOMING_ENABLE)) { sys.state = STATE_ALARM; }
   #endif
 #ifdef ENABLE_WIFI
-    // wifi_config.reset_settings();
+//    wifi_config.reset_settings();
     wifi_config.begin();
 #endif
 #ifdef ENABLE_BLUETOOTH

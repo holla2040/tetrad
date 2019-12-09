@@ -14,6 +14,13 @@ bring up
     [ESP102]DHCP
     [ESP110]STA
     check settings with [ESP401]
+
+[ESP115]OFF
+[ESP110]STA
+[ESP100]user
+
+[ESP101]pass
+[ESP115]ON
     
     
 

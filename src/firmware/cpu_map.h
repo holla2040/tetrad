@@ -38,10 +38,10 @@
 	
 //Set your pin definition 
 //let -1 to use default board pin
-#define GRBL_SPI_SS 25
-#define GRBL_SPI_MOSI 23
-#define GRBL_SPI_MISO 19
-#define GRBL_SPI_SCK 18
+#define GRBL_SPI_SS -1
+#define GRBL_SPI_MOSI -1
+#define GRBL_SPI_MISO -1
+#define GRBL_SPI_SCK -1
 //Set your frequency 
 #define GRBL_SPI_FREQ  4000000
 
@@ -100,7 +100,6 @@
 		#define Z_LIMIT_PIN     	GPIO_NUM_15 
 	#endif
 	
-	#define X_STEP_PIN      	GPIO_NUM_12
 	
 	#define X_RMT_CHANNEL		0
 	
@@ -112,7 +111,7 @@
 	#define Z_RMT_CHANNEL		2		
 	
 	// OK to comment out to use pin for other features
-	#define STEPPERS_DISABLE_PIN GPIO_NUM_13		
+	// #define STEPPERS_DISABLE_PIN GPIO_NUM_13		
 		
 	//#define COOLANT_MIST_PIN   	GPIO_NUM_21
 	#define USER_DIGITAL_PIN_1	GPIO_NUM_21
@@ -148,6 +147,11 @@
 	#define CONTROL_RESET_PIN         GPIO_NUM_34  // needs external pullup
 	#define CONTROL_FEED_HOLD_PIN     GPIO_NUM_36  // needs external pullup 
 	#define CONTROL_CYCLE_START_PIN   GPIO_NUM_39  // needs external pullup 
+
+
+
+	#define X_DIRECTION_PIN      	GPIO_NUM_12
+	#define X_STEP_PIN              GPIO_NUM_13
 #endif
 
 #ifdef CPU_MAP_ESPDUINO_32
@@ -1504,3 +1508,4 @@
 		
 		
 #endif
+
