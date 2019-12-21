@@ -52,7 +52,6 @@ Some features should not be changed. See notes below.
 
 #define CPU_MAP_TETRAD
 
-
 // Serial baud rate
 #define BAUD_RATE 115200
 

@@ -117,6 +117,19 @@
 #define A_DIRECTION_PIN     GPIO_NUM_2
 #define A_STEP_PIN          GPIO_NUM_15
 #define A_LIMIT_PIN         GPIO_NUM_4
+#define DEFAULT_A_MAX_RATE  4000
+
+
+#define SPINDLE_PWM_PIN           GPIO_NUM_17
+#define SPINDLE_DIR_PIN           GPIO_NUM_16
+#define SPINDLE_ENABLE_PIN        GPIO_NUM_5
+#define SPINDLE_PWM_BIT_PRECISION 8
+#define SPINDLE_PWM_MAX_VALUE     255
+#define SPINDLE_PWM_MIN_VALUE     1
+#define SPINDLE_PWM_CHANNEL       0
+#define SPINDLE_PWM_OFF_VALUE     0
+#define SPINDLE_PWM_BASE_FREQ     5000
+
 
 #define LIMIT_MASK          B0111
 
