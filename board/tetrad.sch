@@ -5141,7 +5141,9 @@ https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
 check if D14 and D15 PWM out on startup
 add 0430450612 headers
 add drv8825 board headers
-switch 23017 to qfn</text>
+switch 23017 to qfn
+add strong pull ups to steps and dir
+add high current N-CH to extra 23107 outputs</text>
 <text x="138.43" y="193.04" size="1.016" layer="97">40V</text>
 <text x="262.89" y="7.112" size="2.54" layer="97">V1.1</text>
 </plain>

@@ -36,7 +36,6 @@ volatile uint8_t sys_rt_exec_accessory_override; // Global realtime executor bit
 
 
 void setup() {
-  
   serial_init();   // Setup serial baud rate and interrupts
   settings_init(); // Load Grbl settings from EEPROM  
   
@@ -90,6 +89,7 @@ void setup() {
 }
 
 void loop() {  
+
   
   // Reset system variables.
   uint8_t prior_state = sys.state;
