@@ -16,6 +16,8 @@ Compiling
     set options, like N_AXIS in config.h
 
 ----
+[![Watch the video](https://img.youtube.com/vi/7fjVDnm6PjQ/maxresdefault.jpg)](https://youtu.be/7fjVDnm6PjQ)
+
 
 
 
