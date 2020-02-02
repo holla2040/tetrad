@@ -69,11 +69,10 @@ Some features should not be changed. See notes below.
 // #define ENABLE_SSDP //enable UPNP discovery
 // #define ENABLE_NOTIFICATIONS //enable notifications
 
-// #define ENABLE_SERIAL2SOCKET_IN
-// #define ENABLE_SERIAL2SOCKET_OUT
+#define ENABLE_SERIAL2SOCKET_IN
+#define ENABLE_SERIAL2SOCKET_OUT
 
 #define ENABLE_CAPTIVE_PORTAL
-//#define ENABLE_AUTHENTICATION
 
 #define NAMESPACE "GRBL"
 #define ESP_RADIO_MODE "RADIO_MODE"
